@@ -6,32 +6,47 @@
     <description>Recent content on El Blog de Temoc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>temopalmag@gmail.com (Cuahthémoc Palma Gutiérrez)</managingEditor>
-    <webMaster>temopalmag@gmail.com (Cuahthémoc Palma Gutiérrez)</webMaster>
     <lastBuildDate>Thu, 07 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://temocpalma.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creando el blog con HUGO, problemas y soluciones</title>
-      <link>https://temocpalma.github.io/post/creating-my-blog-with-hugo/</link>
+      <title>Creación del blog</title>
+      <link>https://temocpalma.github.io/posts/creating-my-blog-with-hugo/</link>
       <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
-      <author>temopalmag@gmail.com (Cuahthémoc Palma Gutiérrez)</author>
-      <guid>https://temocpalma.github.io/post/creating-my-blog-with-hugo/</guid>
-      <description>&lt;h2 id=&#34;mi-peregrinación-en-la-creación-del-blog&#34;&gt;Mi peregrinación en la creación del blog&lt;/h2&gt;</description>
+      
+      <guid>https://temocpalma.github.io/posts/creating-my-blog-with-hugo/</guid>
+      <description>&lt;h2 id=&#34;historia-de-la-creación-del-blog&#34;&gt;Historia de la creación del blog&lt;/h2&gt;</description>
     </item>
     
     <item>
-      <title>Acerca de mi</title>
+      <title>header</title>
+      <link>https://temocpalma.github.io/_header/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://temocpalma.github.io/_header/</guid>
+      <description>EL BLOG DE TEMOC</description>
+    </item>
+    
+    <item>
+      <title>Mis Redes Sociales</title>
+      <link>https://temocpalma.github.io/socialnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://temocpalma.github.io/socialnet/</guid>
+      <description> cuauh.palma /  @cpalmag /  +TemocPaGu /  temocpalma   </description>
+    </item>
+    
+    <item>
+      <title>Quién soy</title>
       <link>https://temocpalma.github.io/about/</link>
-      <pubDate>Thu, 24 Aug 2017 00:00:00 +0000</pubDate>
-      <author>temopalmag@gmail.com (Cuahthémoc Palma Gutiérrez)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://temocpalma.github.io/about/</guid>
       <description>Presentación Me llamo Cuahuthémoc Palma Gutiérrez, oriundo de Salina Cruz, Oaxaca, vi la luz un 14 de Febrero de 1977.
 Soy programador, aún &amp;ldquo;novato&amp;rdquo;, desde el 2007.
 Actualmente trabajo con TechMinds / MakingDevs en un proyecto Grails
-     
 Tecnologías           
 Pasatiempos e intereses Historia Principalmente Historia de México, y más específicamente que hablen sobre datos poco conocidos de los sucesos, personajes y sitios históricos del país.</description>
     </item>
