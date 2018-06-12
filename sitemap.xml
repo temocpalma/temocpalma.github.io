@@ -3,12 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://temocpalma.github.io/posts/development/using-spock-with-unit-test-on-groovy/</loc>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://temocpalma.github.io/posts/creating-my-blog-with-hugo/</loc>
     <lastmod>2017-09-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://temocpalma.github.io/hobbies/collections/</loc>
+  </url>
+  
+  <url>
+    <loc>https://temocpalma.github.io/posts/history/</loc>
+  </url>
+  
+  <url>
+    <loc>https://temocpalma.github.io/posts/development/</loc>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
