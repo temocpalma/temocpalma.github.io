@@ -5,7 +5,8 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-08-07T23:51:32 CDT">
+<meta name="generator" content="Hugo 0.56.3" />
+
 <title>Creación de Pruebas Unitarias con Spock y Groovy :: El Blog de Temoc</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -44,7 +45,6 @@
 
   
 
-
     </div>
         <div class="searchbox">
 		    <label for="search-by"><i class="fa fa-search"></i></label>
@@ -72,13 +72,6 @@
             <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/posts/creating-my-blog-with-hugo/" class="dd-item">
-        <div>
-          <a href="/posts/creating-my-blog-with-hugo/">
-            <i class='fa fa-anchor'></i> Creación del blog
-          </a>
-        </div>
-    </li>
     <li data-nav-id="/posts/development/" class="dd-item parent haschildren
         ">
       <div>
@@ -90,6 +83,35 @@
         <div>
           <a href="/posts/development/using-spock-with-unit-test-on-groovy/">
             <i class='fa fa-anchor'></i> Creación de Pruebas Unitarias con Spock y Groovy
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/posts/development/basic-tools-for-development/" class="dd-item">
+        <div>
+          <a href="/posts/development/basic-tools-for-development/">
+            <i class='fa fa-anchor'></i> Herramientas básicas para desarrollo de software
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+      <li data-nav-id="/posts/creating-my-blog-with-hugo/" class="dd-item">
+        <div>
+          <a href="/posts/creating-my-blog-with-hugo/">
+            <i class='fa fa-anchor'></i> Creación del blog
+          </a>
+        </div>
+    </li>
+    <li data-nav-id="/posts/tricks/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/posts/tricks/">Trucos</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/posts/tricks/clean-install-high-sierra-mac-os/" class="dd-item">
+        <div>
+          <a href="/posts/tricks/clean-install-high-sierra-mac-os/">
+            <i class='fa fa-anchor'></i> Instalación limpia de MacOs High Sierra
           </a>
         </div>
     </li>
@@ -109,6 +131,43 @@
       <a href="/hobbies/">Hobbies</a><i class="fa fa-angle-right fa-lg category-icon"></i>
       </div>
         <ul>
+    <li data-nav-id="/hobbies/collections/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/hobbies/collections/">Colecciones</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/hobbies/collections/national_bills/" class="dd-item">
+        <div>
+          <a href="/hobbies/collections/national_bills/">
+            <i class='fa fa-anchor'></i> Billetes Nacionales
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/hobbies/collections/toys/" class="dd-item">
+        <div>
+          <a href="/hobbies/collections/toys/">
+            <i class='fa fa-anchor'></i> Juguetes
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/hobbies/travels/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/hobbies/travels/">Viajes</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/hobbies/travels/oaxaca/" class="dd-item">
+        <div>
+          <a href="/hobbies/travels/oaxaca/">
+            <i class='fa fa-anchor'></i> Oaxaca
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
         </ul>
     </li>
     <li data-nav-id="/books/" class="dd-item haschildren
@@ -245,10 +304,11 @@
     
     
     
-    <h2 id="introducción">Introducción</h2>
+    <p><em>07-09-2017</em></p>
 
-<p>
-Las creación de pruebas automatizadas de software son una tarea aún poco apreciada en el desarrollo de software, ya que muchos las consideran un trabajo &ldquo;extra&rdquo; no necesario de realizar, principalmente cuando el programador tiene ya dominio en la solución de problemas en el lenguaje en el que se desenvuelva; ya que muchas veces se escribe más código en las pruebas que en el componente que se está probando.</p>
+<h2 id="introducción">Introducción</h2>
+
+<p>La creación de pruebas automatizadas de software son una tarea aún poco apreciada en el desarrollo de software, ya que muchos lo consideran un trabajo &ldquo;extra&rdquo; no necesario de realizar, principalmente cuando el programador tiene ya dominio en la solución de problemas en el lenguaje en el que se desenvuelva; ya que muchas veces se escribe más código en las pruebas que en el componente que se está probando.</p>
 
 <p>Sin embargo, esa forma de pensamiento, es equivocada. Las pruebas automatizadas son una herramienta que no sólo nos ayuda a garantizar en gran medida que el componente de software desarrollado funcione bien (que hace lo que tiene que hacer) sino que además nos ayuda a mejorar las buenas prácticas a la hora de programar (escribimos mejor código usando pruebas).</p>
 
@@ -422,7 +482,7 @@ class ClasificationServiceSpec extends Specification {
 
 <div id="navigation">
 <a class="nav nav-prev" href="/posts/development/" title="Programación"> <i class="fa fa-chevron-left"></i><label>Programación</label></a>
-    <a class="nav nav-next" href="/posts/history/" title="Historia" style="margin-right: 0px;"><label>Historia</label><i class="fa fa-chevron-right"></i></a></div>
+    <a class="nav nav-next" href="/posts/development/basic-tools-for-development/" title="Herramientas básicas para desarrollo de software" style="margin-right: 0px;"><label>Herramientas básicas para desarrollo de software</label><i class="fa fa-chevron-right"></i></a></div>
 
 </section>
 <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">

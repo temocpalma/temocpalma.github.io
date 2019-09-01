@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.56.3" />
 
-<title> :: El Blog de Temoc</title>
+<title>Instalación limpia de MacOs High Sierra :: El Blog de Temoc</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 
     
   </head>
-  <body data-url="/">
+  <body data-url="/posts/tricks/clean-install-high-sierra-mac-os/">
     
       <div id="headermain"></div>
 <nav id="sidebar" class="">
@@ -65,10 +65,11 @@
             <li data-nav-id="/" class="dd-item">
             <a href="/"><i class="fa fa-fw fa-home"></i></a>
             </li>
-    <li data-nav-id="/posts/" class="dd-item haschildren
+    <li data-nav-id="/posts/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/posts/">Posts</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      <a href="/posts/">Posts</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
     <li data-nav-id="/posts/development/" class="dd-item haschildren
@@ -100,13 +101,14 @@
           </a>
         </div>
     </li>
-    <li data-nav-id="/posts/tricks/" class="dd-item haschildren
+    <li data-nav-id="/posts/tricks/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/posts/tricks/">Trucos</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      <a href="/posts/tricks/">Trucos</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/posts/tricks/clean-install-high-sierra-mac-os/" class="dd-item">
+      <li data-nav-id="/posts/tricks/clean-install-high-sierra-mac-os/" class="dd-item active">
         <div>
           <a href="/posts/tricks/clean-install-high-sierra-mac-os/">
             <i class='fa fa-anchor'></i> Instalación limpia de MacOs High Sierra
@@ -235,8 +237,59 @@
 <div id="overlay"></div>
 <div class="padding highlightable">
 
+  <div id="top-bar">
+    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <span id="sidebar-toggle-span">
+          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+            <i class="fa fa-bars"></i>
+          </a>
+        </span>
+        <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+        <span class="links">
+        
+
+
+
+
+
+
+
+
+
+
+ <a href='/'></a> > <a href='/posts/'>Posts</a> > <a href='/posts/tricks/'>Trucos</a> > Instalación limpia de MacOs High Sierra
+
+ 
+
+ 
+
+ 
+
+   
+        </span>
+    </div>
+    
+    
+    <div class="progress">
+        <div class="wrapper">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#introducción">Introducción</a></li>
+</ul></li>
+</ul>
+</nav>
+        </div>
+    </div>
+    
+
+  </div>
+
 
 <div id="body-inner">
+  
+    <h1>Instalación limpia de MacOs High Sierra</h1>
   
 
 
@@ -244,32 +297,33 @@
     
     
     
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
-</span>
- 
+    <p><em>10-08-2019</em></p>
 
+<h2 id="introducción">Introducción</h2>
 
-<h1 id="el-blog-de-temoc">EL BLOG DE TEMOC</h1>
+<p>Recientemente adquirí un disco duro de estado sólido para cambiarlo en una MacBook Pro 2011 de 13&rdquo;. Era la primera vez que haría una instalación de MacOs, así que consulté con uno de mis amigos del trabajo que ya lo ha hecho varias veces. La versión de MacOs que ya tenía instalada la lap era High Sierra, que es la máxima versión que soporta (Mojave, que es la más nueva en este momento, ya no aplica).</p>
 
-<p>Eterno programador principiante, aficionado a la historia y coleccionista amateur&hellip;</p>
+<p>Una vez que recibí orientación y de que, además busqué información en internet para reforzarme en el proceso, inicié el procedimiento. Pero inmediatamente me topé con un problema: el instalador de High Sierra que se descarga de la App Store, es una versión mínima!!! Y al querer crear la memoria USB booteable, lanza el error de que el archivo descargado no es el correcto.</p>
 
+<p>Busqué nuevamente en internet para ver cómo podía resolver esto, y los sitios que vi hablaban de que realizara la descarga varias veces y que en alguno de esos intentos se iba a descargar completo, lo cual sólo hice hasta 3 veces (:B). Otros sitios te indicaban que tenías que descargar un &ldquo;patcher&rdquo; para poder bajar la versión completa del instalador pero que era una aplicación riesgosa, y no me animé a hacerlo (:|).</p>
 
+<p>Pasó una semana de esto y no se me ocurría nada para poder hacer el cambio del disco duro. Hasta que por fin, me llegó una idea: <strong>&rdquo;&hellip; y si descargo la versión Sierra, tal vez esta sí se descargue completa, y entonces pueda crear la memoria USB booteable, y una vez creada, instalo la versión Sierra, y en cuanto termine, hago el upgrade a High Sierra&hellip;&rdquo;</strong> Y bueno, así lo hice :)</p>
 
+<p>El proceso de instalación prácticamente me llevo todo un día, y un día más para volver a instalar y configurar aplicaciones y herramientas que uso, pero lo logré!!!</p>
+
+<p>Y ahora, la Mac, corre como chamaco hiperactivo!!!</p>
 
     
     
           <footer class=" footline" >
-	
-	    <i class='fa fa-user'></i> <a href="mailto:temopalmag@gmail.com">Temoc Palma</a>  <i class='fa fa-calendar'></i> 10/08/2019
-	    </div>
 	
 </footer>
   </div>
 </div>
 
 <div id="navigation">
-<a class="nav nav-next" href="/posts/" title="Posts" style="margin-right: 0px;"><label>Posts</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/posts/tricks/" title="Trucos"> <i class="fa fa-chevron-left"></i><label>Trucos</label></a>
+    <a class="nav nav-next" href="/posts/history/" title="Historia" style="margin-right: 0px;"><label>Historia</label><i class="fa fa-chevron-right"></i></a></div>
 
 </section>
 <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
